@@ -26,7 +26,6 @@ const ProductComments = () => {
   const formik = useFormik({
     initialValues: {
       comment: '',
-      product_id: id,
     },
     onSubmit: async values => {
       if (user) {
